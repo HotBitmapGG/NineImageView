@@ -28,11 +28,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         NineImageView nineImageView = (NineImageView) findViewById(R.id.multi_image);
+        //set the picture url set
         nineImageView.setImageUrls(imageUrls);
         nineImageView.setOnClickItemListener(new NineImageView.OnClickItemListener() {
             @Override
             public void onClick(int i, ArrayList<String> url) {
-
+               //set the picture click event,then do you have to do operation
             }
         });
     }
