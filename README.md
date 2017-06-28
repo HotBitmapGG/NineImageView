@@ -9,6 +9,20 @@ A nine graph display controls
 
 ## Usage
 
+```java
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+		dependencies {
+    	        compile 'com.github.HotBitmapGG:NineImageView:V1.0'
+    	}
+
+```
+
 * 1.In the XML
 
 ```java
