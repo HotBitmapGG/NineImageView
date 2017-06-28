@@ -1,5 +1,7 @@
 # NineImageView
 
+[![](https://jitpack.io/v/HotBitmapGG/NineImageView.svg)](https://jitpack.io/#HotBitmapGG/NineImageView)
+
 A nine graph display controls
 
 ## Screenshots
