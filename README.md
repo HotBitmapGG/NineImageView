@@ -6,7 +6,7 @@ A nine graph display controls
 
 ## Screenshots
 
-<a href="art/pic_1.png"><img src="art/00.png" width="30%"/></a> <a href="art/pic_2.png"><img src="art/01.png" width="30%"/></a> <a href="art/02.png"><img src="art/pic_3.png" width="30%"/></a>
+<a href="art/pic1.png"><img src="art/pic1.png" width="30%"/></a> <a href="art/pic2.png"><img src="art/pic2.png" width="30%"/></a> <a href="art/pic3.png"><img src="art/pic3.png" width="30%"/></a>
 
 
 ## Usage
