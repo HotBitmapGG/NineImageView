@@ -2,28 +2,50 @@
 
 [![](https://jitpack.io/v/HotBitmapGG/NineImageView.svg)](https://jitpack.io/#HotBitmapGG/NineImageView)
 
-A nine graph display controls
+A simple use of nine pictures show the control
 
 ## Screenshots
 
 <a href="art/pic1.png"><img src="art/pic1.png" width="30%"/></a> <a href="art/pic2.png"><img src="art/pic2.png" width="30%"/></a> <a href="art/pic3.png"><img src="art/pic3.png" width="30%"/></a>
 
 
-## Usage
+## Import
 
 ```java
+
+ Step 1. Add the JitPack repository to your build file
+ Add it in your root build.gradle at the end of repositories:
+
 	allprojects {
 		repositories {
 			...
-			maven { url 'https://jitpack.io' }
+			maven { url "https://jitpack.io" }
 		}
 	}
+
+
+
+Step 2. Add the dependency
 
 		dependencies {
     	        compile 'com.github.HotBitmapGG:NineImageView:V1.0'
     	}
 
 ```
+
+## Directions
+
+* custom properties
+
+name | format | instructions
+-----|------|----
+nineImageHorizontalSpace    | dimension    | Horizontal Space
+nineImageVerticalSpace   | dimension     | Vertical Space
+nineImageRadius    | dimension    | View Radius
+nineImageRatio   | float   | View Ratio
+nineImageColumns    | integer    | View Columns Number
+
+## Usage
 
 * 1.In the XML
 
