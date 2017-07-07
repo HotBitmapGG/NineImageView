@@ -28,7 +28,7 @@ A simple use of nine pictures show the control
 Step 2. Add the dependency
 
 		dependencies {
-    	        compile 'com.github.HotBitmapGG:NineImageView:V1.0'
+    	        compile 'com.github.HotBitmapGG:NineImageView:V1.1'
     	}
 
 ```
