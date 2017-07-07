@@ -1,5 +1,6 @@
 package com.hotbitmapgg.nineimagesample;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -40,7 +41,10 @@ public class MainActivity extends AppCompatActivity {
         nineImageView.setOnClickItemListener(new NineImageView.OnClickItemListener() {
             @Override
             public void onClick(int i, ArrayList<String> url) {
-               //set the picture click event,then do you have to do operation
+                //set the picture click event,then do you have to do operation
+                Intent intent = new Intent(MainActivity.this, ImageDetailsActivity.class);
+                intent.putExtra("image", url.get(i));
+                startActivity(intent);
             }
         });
     }
@@ -53,33 +57,33 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.menu_number_1:
-                nineImageView.setImageUrls(imageUrls.subList(0,1));
+                nineImageView.setImageUrls(imageUrls.subList(0, 1));
                 break;
             case R.id.menu_number_2:
-                nineImageView.setImageUrls(imageUrls.subList(0,2));
+                nineImageView.setImageUrls(imageUrls.subList(0, 2));
                 break;
             case R.id.menu_number_3:
-                nineImageView.setImageUrls(imageUrls.subList(0,3));
+                nineImageView.setImageUrls(imageUrls.subList(0, 3));
                 break;
             case R.id.menu_number_4:
-                nineImageView.setImageUrls(imageUrls.subList(0,4));
+                nineImageView.setImageUrls(imageUrls.subList(0, 4));
                 break;
             case R.id.menu_number_5:
-                nineImageView.setImageUrls(imageUrls.subList(0,5));
+                nineImageView.setImageUrls(imageUrls.subList(0, 5));
                 break;
             case R.id.menu_number_6:
-                nineImageView.setImageUrls(imageUrls.subList(0,6));
+                nineImageView.setImageUrls(imageUrls.subList(0, 6));
                 break;
             case R.id.menu_number_7:
-                nineImageView.setImageUrls(imageUrls.subList(0,7));
+                nineImageView.setImageUrls(imageUrls.subList(0, 7));
                 break;
             case R.id.menu_number_8:
-                nineImageView.setImageUrls(imageUrls.subList(0,8));
+                nineImageView.setImageUrls(imageUrls.subList(0, 8));
                 break;
             case R.id.menu_number_9:
-                nineImageView.setImageUrls(imageUrls.subList(0,9));
+                nineImageView.setImageUrls(imageUrls.subList(0, 9));
                 break;
         }
         return super.onOptionsItemSelected(item);
